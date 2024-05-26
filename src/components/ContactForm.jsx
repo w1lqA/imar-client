@@ -17,7 +17,7 @@ const ContactForm = ({emailType}) => {
       console.log("Sending Email");
       if (userEmail && userName && message && checkboxState) {
         axios
-          .post("http://localhost:3001/sendEmail", {
+          .post("http://localhost:5000/sendEmail", {
             userEmail, userName, message, emailType
 
           })
@@ -45,13 +45,13 @@ const ContactForm = ({emailType}) => {
             placeholder="">
         </textarea>
 
-        <div className='flex flex-row items-center'>
-            <div className="w-full py-2 flex items-center">
+        <div className='flex flex-row flex-wrap items-center justify-between'>
+            <div className="py-2 flex items-center">
                 <input onClick={() => setCheckboxState(!checkboxState)} type="checkbox" id="agreement" name="agreement" className="hover:opacity-70 transition-all ease-in-out hover:scale-95 duration-150 mr-2 bg-[#DFDFDF] focus:ring-transparent checked:ring-transparent" />
                 <label htmlFor="agreement" className="text-[#DFDFDF] text-sm">{t("contactForm.agreement")}</label>
             </div>
             
-            <div className="p-2 flex justify-end">
+            <div className="py-2 flex justify-end">
                 <button onClick={() => sendEmail()} class="flex flex-row group items-center font-rubik border-[3px] border-white text-sm text-white px-4 py-2 font-bold text-center tracking-[4px] uppercase">
                   {t("contactForm.button")}
                   <FaArrowRight className='-ml-3 opacity-0 group-hover:ml-3 group-hover:opacity-100 transition-all ease-in-out duration-300'/>

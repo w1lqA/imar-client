@@ -8,7 +8,7 @@ i18n
   .init({
     debug: true,
     fallbackLng: 'en',
-    lng: 'ru',
+    lng: 'en',
     returnObjects: true,
     resources: {
     en: {
@@ -108,6 +108,7 @@ i18n
                 project3: "RESIDENTIAL DISTRICT",
                 project4: "AMUR GCC",
                 project5: "KUZMINKI MALL",
+                project6: "G-DRIVE ARENA",
                 description1: "Electrical and mechanical work",
                 description2: "Construction and installation works",
                 projectCardButton: "See more"
@@ -116,7 +117,7 @@ i18n
             geographyTitle: "GEOGRAPHY OF THE PROJECTS",
             career: {
                 title: "We are always on the lookout for ambitious people",
-                description: "If you would like to join the IMAR, please leave an application form and we will contact you.",
+                description: "If you would like to join the IMAR GROUP, please leave an application form and we will contact you.",
                 button: "learn more"
             },
             contacts: {
@@ -222,13 +223,15 @@ i18n
                   description: [
                     ['➤ Installation of industrial equipment',
                     '➤ Installation of process pipelines',
+                    '<br/>',
                     '➤ ES: Electrical Supply',
                     '➤ EM: Electrical Equipment',
                     '➤ EG: Lightning Protection and Grounding',
-                    '➤ ASCME: Automated System of Control and Metering of Electricity'
+                    '➤ ASCME: Automated System of Control and Metering of Electricity',
                     ],
                     ['➤ Installation of prefabricated buildings and structures',
                     '➤ Installation of metal structures',
+                    '<br/>',
                     '➤ APS: Automatic fire alarm system',
                     '➤ ASPS: Smoke protection automation system',
                     '➤ SUE: Smoke alarm system: System of automation of smoke protection',
@@ -340,7 +343,7 @@ i18n
               services: 'Услуги',
               career: 'Карьера'
             },
-            activitiesSectionTitle: 'Области деятельности',
+            activitiesSectionTitle: 'сферы деятельности',
             activities: [
                 {
                     title: 'Гражданское и архитектурное строительство',
@@ -394,7 +397,7 @@ i18n
             servicesSectionTitle: 'НАШИ ПОДРАЗДЕЛЕНИЯ И ПРЕДОСТАВЛЯЕМЫЕ УСЛУГИ',
             services: [
               {
-                title: 'ПРОЕКТИРОВАНИЕ И СТРОИТЕЛЬСТВО',
+                title: 'Строительный инжиниринг',
                 description: [
                   'Комплекс строительно-монтажных работ "под ключ"',
                   'Привлечение полного штата сотрудников на объект',
@@ -437,7 +440,7 @@ i18n
             geographyTitle: "ГЕОГРАФИЯ ПРОЕКТОВ",
             career: {
               title: "Мы всегда в поисках амбициозных людей",
-              description: "Если вы хотите присоединиться к IMAR, пожалуйста, оставьте заявку, и мы свяжемся с вами.",
+              description: "Если вы хотите присоединиться к команде IMAR, пожалуйста, оставьте заявку, и мы свяжемся с вами.",
               button: "Узнать больше"
             },
             contacts: {
@@ -542,13 +545,15 @@ i18n
                   description: [
                     ['➤ Монтаж промышленного оборудования',
                     '➤ Монтаж технологических трубопроводов',
+                    '<br/>',
                     '➤ ЭС: Электроснабжение',
                     '➤ ЭМ: Электрооборудование',
                     '➤ ЭГ: Молниезащита и заземление',
-                    '➤ АСКУЭ: Автоматизированная система контроля и учета электроэнергии'
+                    '➤ АСКУЭ: Автоматизированная система контроля и учета электроэнергии',
                     ],
                     ['➤ Монтаж сборных зданий и сооружений',
                     '➤ Монтаж металлических конструкций',
+                    '<br/>',
                     '➤ АПС: Автоматическая пожарная сигнализация',
                     '➤ АСПС: Автоматизация систем противопожарной защиты',
                     '➤ СОУЭ: Система оповещения и управления эвакуацией при пожаре',

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import LanguageDetector from 'i18next-browser-languagedetector';
 import usFlag from '../assets/icons/usFlag.png'
 import ruFlag from '../assets/icons/ruFlag.png'
 

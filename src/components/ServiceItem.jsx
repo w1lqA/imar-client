@@ -11,7 +11,7 @@ const ServiceItem = ({ logo, title, description, page, styles}) => {
       <div className='w-48  flex my-auto '>
           <img src={logo}/>
       </div>
-      <h2 className="font-rubik font-bold text-lg text-[#333333]">{title}</h2>
+      <h2 className="font-rubik text-center font-bold text-lg text-[#333333] uppercase">{title}</h2>
       <p className="font-normal text-sm text-[#696666] leading-8 max-w-96 px-6">
           {description}
       </p>

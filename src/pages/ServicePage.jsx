@@ -19,26 +19,6 @@ const ServicePage = ({page}) => {
     const logos = [
         Logo1, Logo2, Logo3
     ]
-    const services = [
-        {
-            title: 'CONSTRUCTION ENGINEERING',
-            description: (<div><li>Turnkey construction and installation works </li>
-                <li>Attracting a full staff of employees to the facility </li>
-                <li>Quick mobilization and high-quality coordinated work of the team</li></div>)
-        },
-        {
-            title: 'DESIGNING',
-            description: (<div><li>Design of engineering system drawings</li>
-                <li>Delivery of the complete list of documentation to the customer</li>
-                <li>Support during the construction process</li></div>)
-        },
-        {
-            title: 'EXPLOITATION',
-            description: (<div><li>Professional service </li>
-                <li>Efficient maintenance technology</li>
-                <li>Saving of effort and money as a result of proper operation</li></div>)
-        },
-    ]
 
   return (
     <div>
@@ -49,9 +29,6 @@ const ServicePage = ({page}) => {
                 <div class="flex flex-col items-center">
                 <div className="w-[50px] h-[6px] bg-[#6484CD] mb-12"></div>
                 <img src={logos[pageID]} className='w-[300px] drop-shadow-lg'/>
-                {/* <p class="mt-20 text-center max-w-4xl text-xl text-white">
-                We are an international construction and engineering company, we accompany our clients in the implementation of infrastructure, industrial and development projects at every stage of their life cycle.
-                </p> */}
                 </div>
             </div>
         </header>
@@ -70,7 +47,11 @@ const ServicePage = ({page}) => {
                 {servicePage.serviceInfo[pageID].description.map((descriptionSection) =>(
                     <li className='flex flex-col items-start text-[#666666] text-lg font-normal px-12'>
                     {descriptionSection.map((listItem) => (
-                        <ul>{listItem}</ul>
+                        <div>
+                            <ul>{listItem === '<br/>' ? <br/> : listItem}</ul>
+                            
+                        </div>
+                        
                     ))}
                     </li>
                 ))}

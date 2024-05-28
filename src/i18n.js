@@ -138,6 +138,7 @@ i18n
                 agreement: 'I accept the user agreement and privacy policy',
                 labelName: 'Name',
                 labelEmail: 'Email',
+                labelPhone: 'Phone',
                 button: 'Send',
             },
             footer: {
@@ -461,6 +462,7 @@ i18n
               agreement: 'Я принимаю пользовательское соглашение и политику конфиденциальности',
               labelName: 'Имя',
               labelEmail: 'Email',
+              labelPhone: 'Телефон',
               button: 'Отправить',
             },
             footer: {

@@ -17,7 +17,7 @@ const App = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
   },[])
-  
+
 
   const projectPages = [1,2,3,4,5,6]
   const servicePages = [1,2,3]

@@ -4,8 +4,8 @@ import usFlag from '../assets/icons/usFlag.png'
 import ruFlag from '../assets/icons/ruFlag.png'
 
 const languages = [
-    {code: 'en', lang: usFlag},
-    {code: 'ru', lang: ruFlag},
+    {code: 'en', lang: ruFlag},
+    {code: 'ru', lang: usFlag},
 ]
 
 const LanguageSelector = () =>{

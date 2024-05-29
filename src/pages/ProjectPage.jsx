@@ -34,6 +34,14 @@ import Image6_1 from '../assets/images/projectImages/p6_1.jpg'
 import Image6_2 from '../assets/images/projectImages/p6_2.jpeg'
 import Image6_3 from '../assets/images/projectImages/p6_3.jpg'
 
+import Image7_1 from '../assets/images/projectImages/p7_3.png'
+import Image7_2 from '../assets/images/projectImages/p7_1.jpg'
+import Image7_3 from '../assets/images/projectImages/p7_2.jpg'
+
+import Image8_1 from '../assets/images/projectImages/p8_1.jpg'
+import Image8_2 from '../assets/images/projectImages/p8_2.jpg'
+import Image8_3 from '../assets/images/projectImages/p8_3.jpg'
+
 
 import ProjectInfo from '../components/ProjectInfo';
 import { useTranslation } from 'react-i18next';
@@ -49,6 +57,8 @@ const ProjectPage = ({page}) => {
         [Image4_1, Image4_2, Image4_3],
         [Image5_1, Image5_2, Image5_3],
         [Image6_1, Image6_2, Image6_3],
+        [Image7_1, Image7_2, Image7_3],
+        [Image8_1, Image8_2, Image8_3],
     ]
   return (
     <div>

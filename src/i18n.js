@@ -109,6 +109,8 @@ i18n
                 project4: "AMUR GCC",
                 project5: "KUZMINKI MALL",
                 project6: "G-DRIVE ARENA",
+                project7: "Industrial Park",
+                project8: "«Magadan» Airport",
                 description1: "Electrical and mechanical work",
                 description2: "Construction and installation works",
                 projectCardButton: "See more"
@@ -207,7 +209,24 @@ i18n
                     'The multifunctional sports complex "G-DRIVE Arena" is intended for: Hockey matches under the auspices of the KHL, VHL, and MCHM; Training processes for hockey; Mass ice skating; Other sports and entertainment events.',
                     'In the free time from sports events, the area around the sports complex is used for walks and relaxation for residents, as well as for citywide cultural and mass events.'
                   ]
-                }
+                },
+                {
+                  title: ['Industrial Park “Chernyakhovsk”'],
+                  headerInfo: ['2023-Until now','Electrical and mechanical work','LIMAKMARASH'],
+                  description: [
+                    'Construction of a production complex for silicon wafers and photovoltaic converters located in Chernyakhovsk, Kaliningrad Region (Industrial Park “Chernyakhovsk”). This is the largest solar wafer and cell manufacturing plant in Eastern Europe.',
+                    'In the course of the project implementation, the project documentation was adjusted and passed the state expert review, working documentation was developed in BIM, turnkey construction works were performed, including the full scope of electromechanical works.',
+                  ],
+                },
+                {
+                  title: ['«Magadan» Airport'],
+                  headerInfo: ['2024-Until now','Electrical and mechanical work','LIMAKMARASH'],
+                  description: [
+                    'As part of the project implementation, construction of a new air terminal complex for domestic airlines of Magadan International Airport is underway.',
+                    'Construction of a new station square, a new 10kV electrical distribution substation, treatment facilities and other auxiliary facilities.',
+                    'The new terminal of Magadan International Airport will be equipped with 2 telescopic ladders and an automatic baggage handling system, it will realize modern technologies of passenger service.',
+                  ],
+                },
               ]
             },
             servicePage: {
@@ -433,6 +452,8 @@ i18n
               project4: "АМУРСКИЙ ГХК",
               project5: "КУЗЬМИНКИ МОЛЛ",
               project6: "АРЕНА G-DRIVE",
+              project7: "Индустриальный парк",
+              project8: "Аэропорт «Магадан»",
               description1: "Электромонтажные и механические работы",
               description2: "Строительно-монтажные работы",
               projectCardButton: "Подробнее"
@@ -528,6 +549,23 @@ i18n
                   description: [
                     'Многофункциональный спортивный комплекс «G-DRIVE Arena» предназначена для: Хоккейных матчей под эгидой КХЛ, ВХЛ, МЧМ; Учебно-тренировочного процесса по хоккею; Массового катания на коньках; Иных спортивно-зрелищных мероприятий',
                     'В свободное от спортивных мероприятий время территория вокруг спортивного комплекса используется для прогулок и отдыха горожан, а также для проведения общегородских культурно-массовых мероприятий.',
+                  ],
+                },
+                {
+                  title: ['Индустриальный парк «Черняховск»'],
+                  headerInfo: ['2021-2022','Электрические и механические работы','LIMAKMARASH'],
+                  description: [
+                    'Строительство производственного комплекса по выпуску кремниевых пластин и фотоэлектрических преобразователей, расположенного в г. Черняховск Калининградской области (Индустриальный парк «Черняховск»). Это крупнейший в Восточной Европе завод по производству солнечных пластин и ячеек.',
+                    'В ходе реализации проекта была выполнена корректировка проектной документации с прохождением государственной экспертизы, разработка рабочей документации в BIM, выполнение строительных работ «под ключ», включая полный объем электромеханических работ.',
+                  ],
+                },
+                {
+                  title: ['Аэропорт «Магадан»'],
+                  headerInfo: ['2024 - настоящее время','Электрические и механические работы','LIMAKMARASH'],
+                  description: [
+                    'В рамках реализации проекта ведётся строительство нового аэровокзального комплекса внутренних воздушных авиалиний Международного аэропорта Магадан.',
+                    'Строительство новой привокзальной площади, новой распределительной электрической подстанции 10кВ, очистных сооружений и других вспомогательных объектов.',
+                    'Новый терминал Международного аэропорта Магадан будет оснащен 2 телескопическими трапами и автоматической системой обработки багажа, в нем будут реализованы современные технологии обслуживания пассажиров.',
                   ],
                 },
               ]

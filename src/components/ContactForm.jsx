@@ -18,7 +18,7 @@ const ContactForm = ({ emailType }) => {
     console.log("Sending Email");
     if (userEmail && userName && userPhone && message && checkboxState) {
       axios
-        .post("http://localhost:5000/api/sendEmail", {
+        .post("http://95.163.223.96/api/sendEmail", {
           userEmail, userName, userPhone, message, emailType
         })
         .then(() => setErrorMessage(3))

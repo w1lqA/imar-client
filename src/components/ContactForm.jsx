@@ -15,14 +15,20 @@ const ContactForm = ({ emailType }) => {
   const [checkboxState, setCheckboxState] = useState(false);
 
   const sendEmail = () => {
-    console.log("Sending Email");
+    console.log("Sending Email with data:", { userEmail, userName, userPhone, message, emailType });
     if (userEmail && userName && userPhone && message && checkboxState) {
       axios
         .post("http://95.163.223.96/api/sendEmail", {
           userEmail, userName, userPhone, message, emailType
         })
-        .then(() => setErrorMessage(3))
-        .catch(() => setErrorMessage(4));
+        .then(response => {
+          console.log("Email sent successfully:", response);
+          setErrorMessage(3);
+        })
+        .catch(error => {
+          console.error("Error sending email:", error);
+          setErrorMessage(4);
+        });
       return;
     }
     if (!(userEmail && userPhone && userName && message)) {
@@ -31,6 +37,7 @@ const ContactForm = ({ emailType }) => {
       return setErrorMessage(2);
     }
   };
+
 
     return (
     <div className="space-y-4">

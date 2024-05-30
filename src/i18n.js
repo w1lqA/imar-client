@@ -23,23 +23,23 @@ i18n
             activitiesSectionTitle: 'Areas of Our Activity',
             activities: [
             {
-                title: 'Civil & Architectural',
+                title: 'Civil Engineering',
                 description: 'Shaping the landscape with visionary architecture and robust civil engineering.',
             },
             {
-                title: 'Infrastructure',
+                title: 'Construction of infrastructure facilities',
                 description: 'Building essential connections through transportation, utilities, and urban development projects.',
             },
             {
-                title: 'Power and Renewable Energy',
+                title: 'Construction of power engineering and alternative energy facilities',
                 description: 'Empowering communities with sustainable electricity and renewable energy initiatives.',
             },
             {
-                title: 'Oil & Gas',
+                title: 'Industrial construction',
                 description: 'Expertly navigating the world of energy extraction, processing, and distribution.',
             },
             {
-                title: 'Marine',
+                title: 'Construction of marine  structures',
                 description: 'Harnessing the power of the seas with advanced maritime solutions.',
             },
             ],
@@ -366,23 +366,23 @@ i18n
             activitiesSectionTitle: 'сферы деятельности',
             activities: [
                 {
-                    title: 'Гражданское и архитектурное строительство',
+                    title: 'Гражданское строительство',
                     description: 'Формирование ландшафта с помощью видения архитектуры и надежного гражданского проектирования.',
                 },
                 {
-                    title: 'Инфраструктура',
+                    title: 'Строительство объектов инфраструктуры',
                     description: 'Построение необходимых связей через транспорт, коммунальные услуги и проекты городского развития.',
                 },
                 {
-                    title: 'Энергетика и возобновляемая энергия',
+                    title: 'Строительство объектов энергетики и альтернативных источников энергии',
                     description: 'Повышение благосостояния обществ с помощью устойчивой электроэнергии и инициатив по возобновляемой энергии.',
                 },
                 {
-                    title: 'Нефть и газ',
+                    title: 'Промышленное строительство',
                     description: 'Опытное управление миром добычи, переработки и распределения энергии.',
                 },
                 {
-                    title: 'Морское дело',
+                    title: 'Строительство морских сооружений',
                     description: 'Использование сил морей с помощью передовых морских решений.',
                 },
             ],

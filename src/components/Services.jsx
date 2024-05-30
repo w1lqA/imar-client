@@ -17,7 +17,7 @@ const Services = ({pageID}) => {
             <div className="w-[50px] h-[6px] bg-[#6484CD] mb-6"></div>
             <div className="flex flex-row items-start justify-center flex-wrap">
                 {services.map((service, index) => (
-                    <ServiceItem styles={pageID===index ? 'hidden' : 'flex'} page={index+1} logo={index === 0 ? Logo1 : index === 1 ? Logo2 : Logo3} title={service.title} description={service.description.map((dLine) => (<li>{dLine}</li>))} />
+                    <ServiceItem styles={pageID===index ? 'hidden' : 'flex'} index={index} page={index+1} logo={index === 0 ? Logo1 : index === 1 ? Logo2 : Logo3} title={service.title}/>
                 ))}
             </div>
         </div>

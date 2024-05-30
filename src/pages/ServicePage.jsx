@@ -22,7 +22,6 @@ const ServicePage = ({page}) => {
 
   return (
     <div>
-
         <header className='relative flex justify-center py-8 bg-center bg-cover' style={{backgroundImage: `url(${bgHeader})`}} >
             <div className='backdrop-blur-sm bg-black bg-opacity-50 absolute inset-0' aria-hidden="true"></div>
             <div class="max-w-4xl mx-auto px-4 py-12 z-10">

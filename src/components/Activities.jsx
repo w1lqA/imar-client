@@ -44,10 +44,10 @@ const Activities = () => {
       <div className="w-[50px] h-[6px] bg-[#6484CD] mb-12"></div>
       <div className="grid xs:grid-cols-3 sm:grid-cols-6 xl:px-24 max-w-screen-2xl place-">
         {activities.slice(0, 3).map((activity, index) => (
-          <ActivityItem classes={'col-span-1 sm:col-span-2'} key={index} icon={activity.icon} title={activity.title} description={activity.description} />
+          <ActivityItem classes={'col-span-1 sm:col-span-2'} key={index} icon={activity.icon} title={activity.title}/>
         ))}
-        <ActivityItem classes={'col-span-1 sm:col-span-2 sm:col-start-2'} key={activities[3].index} icon={activities[3].icon} title={activities[3].title} description={activities[3].description} />
-        <ActivityItem classes={'col-span-1 sm:col-span-2 sm:col-start-4'} key={activities[4].index} icon={activities[4].icon} title={activities[4].title} description={activities[4].description} />
+        <ActivityItem classes={'col-span-1 sm:col-span-2 sm:col-start-2'} key={activities[3].index} icon={activities[3].icon} title={activities[3].title} />
+        <ActivityItem classes={'col-span-1 sm:col-span-2 sm:col-start-4'} key={activities[4].index} icon={activities[4].icon} title={activities[4].title} />
       </div>
     </div>
   );
